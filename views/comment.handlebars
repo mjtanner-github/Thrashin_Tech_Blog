@@ -1,0 +1,116 @@
+<div>Test Text</div>
+
+
+<!--{{#each posts as |post| }}
+  <div class="column mb-12 solid-border vert-space">
+    <div class = "flex-row justify-space-between header-fill header-color text-padding">
+        <h5>
+          <a class="dk-hdr-tx" href="/api/comments/{{id}}">{{post.title}}</a>
+        </h5>
+        <p class="dk-hdr-tx">Created by {{post.user.name}} on {{format_date post.date_created}}</p>
+    </div>
+    <div class="flex-row justify-space-between header-color text-padding">
+      <p>
+        {{post.text}}
+      </p>
+    </div>
+  </div>
+{{/each}}
+<div class="row" id="new_Post_block" style="display: none;">
+  <div class="col-md-12 vert-space">
+    <div class="column mb-12 solid-border">
+      <h4 class = "header-fill text-padding dk-hdr-tx">Create New Post</h4>
+      <form class="form dashboard-form contained">
+        <div class="form-group">
+          <label for="new-post-title">Title</label>
+          <input class="form-input" type="text" id="new-post-title" />
+        </div>
+        <div class="form-group">
+          <label for="new-post-text">Content</label>
+          <textarea class="form-input text-at-top" rows="4" type="text" id="new-post-text"></textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-primary spc-btn-width" type="submit">Create</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<button class = "row btn btn-primary" onclick = "toggleVisable()" id="create" type="submit">+New</button>    
+<script>console.log("dashboard.handlebars");</script>
+<script src="./js/dashboard.js"></script>
+
+
+
+
+<div class="row">
+  <div class="col-md-12 vert-space">
+    <div class="column mb-12 solid-border">
+      <h4 class = "header-fill text-padding dk-hdr-tx">Create New Post</h4>
+      <form class="form dashboard-form contained">
+        <div class="form-group">
+          <label for="new-post-title">Title</label>
+          <input class="form-input" type="text" id="new-post-title" />
+        </div>
+        <div class="form-group">
+          <label for="new-post-text">Content</label>
+          <textarea class="form-input text-at-top" rows="4" type="text" id="new-post-text"></textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-primary spc-btn-width" type="submit">Create</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <button class="btn btn-primary" id="create" type="submit">+New</button>    
+</div>
+<script src="./js/dashboard.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="column mb-12 solid-border vert-space">
+  <script>
+    console.log("comment.handlerbars: ");
+    src="./js/comment.js";
+  </script>
+  <div class = "flex-row justify-space-between header-fill header-color text-padding">
+      <h5>
+        <a class = "dk-hdr-tx" href="/comment/{{id}}">{{title}}</a> 
+      </h5>
+      <p class = "dk-hdr-tx">Created by {{user.name}} on {{format_date date_created}}</p>
+  </div>
+  <div class = "flex-row justify-space-between header-color text-padding">
+    <p>
+      {{text}}
+    </p>
+  </div>
+</div> 
+<div class="row">
+  <div class="col-md-12 vert-space">
+    <div class="column mb-12 solid-border">
+      <h4 class = "header-fill text-padding spec-tx-col">Placeholder</h4>
+      <form id="comment-form" class="form comment-form contained" >
+        <div class="form-group">
+          <label for="new-comment-text">Comment</label>
+          <textarea class="form-input text-at-top" rows="4" type="text" id="new-comment-text"></textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-primary spc-btn-width" type="submit">Submit</button>
+        </div>
+        <input class="form-group" type="hidden" id="post_id" value="{{id}}"><br><br>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="./js/comment.js"></script>
+-->

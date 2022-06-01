@@ -1,0 +1,17 @@
+<!-- Loop over each object in the projects array -->
+{{#each posts as |post| }}
+  <div class="column mb-12 solid-border vert-space">
+    <script>console.log("homepage.handlebars")</script>
+    <div class = "flex-row justify-space-between header-fill header-color text-padding">
+        <h5>
+          <a class="dk-hdr-tx" href="/comments/{{post.id}}">{{post.title}}</a>
+        </h5>
+        <p class="dk-hdr-tx">Created by {{post.user.name}} on {{format_date post.date_created}}</p>
+    </div>
+    <div class="flex-row justify-space-between header-color text-padding">
+      <p>
+        {{post.text}}
+      </p>
+    </div>
+  </div>
+{{/each}}

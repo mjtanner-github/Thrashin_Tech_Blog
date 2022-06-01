@@ -1,0 +1,107 @@
+header, .project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.solid-border {
+  border-style: solid;
+}
+
+.text-padding {
+  padding: 5px;
+}
+
+.header-fill {
+  background-color: #230A05;
+  background-clip: padding-box;
+}
+
+.rounded-corner {
+  border-radius: 10px;
+  border: 2px solid #73AD21; 
+  padding: 5px;
+  width: fit-content;
+  border-style: inset;
+  background-color: white;
+  color: #230A05;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.spec-tx-col {
+  color:  #230A05;
+  text-decoration: none;
+}
+
+.spc-btn-width {
+  width: 100%;
+}
+
+.dk-hdr-tx {
+  color: white;
+}
+
+.contained {
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.text-at-top{
+  vertical-align: top;
+}
+
+#create{
+  margin: auto;
+}
+
+.vert-space{
+  margin-bottom: 2%;
+}
+
+.spc-btn {
+  text-align: center;
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  margin: 0;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid transparent;
+  outline: none;
+  color: white;
+  background-color: #230A05;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.spc-btn:hover {
+  color: skyblue;
+}
+
