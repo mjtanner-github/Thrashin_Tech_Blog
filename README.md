@@ -8,7 +8,7 @@ Thrashin Tech Blog is blog site where developers can submit blog post and commen
 
 ## Links  
 
-The Git Repository containing this porject code and this README file: https://github.com/mjtanner-github/Great_JATE.   
+The Git Repository containing this porject code and this README file: https://github.com/mjtanner-github/Thrashin_Tech_Blog.   
 The Heroku deployment: https://thrashin-tech-blog.herokuapp.com.
 
 ## Features
