@@ -11,27 +11,27 @@ Thrashin Tech Blog is blog site where developers can submit blog post and commen
 The Git Repository containing this porject code and this README file: https://github.com/mjtanner-github/Thrashin_Tech_Blog.   
 The Heroku deployment: https://thrashin-tech-blog.herokuapp.com.
 
-## Features
-
-- Works without an internet connection and may be installed as a PWA. 
-
-- Employs an IndexedDB and implements both GET and PUT methods.
-
-- Saves content from the text editor automatically when user focused changes away from the application window.
-
 ## Technology
 
-- _Babel_ to implement async and await.
+- _Express Handlebars_ to implement views.
 
-- _Webpack_ application component bundling.
+- _MySQL2 Database_ for data storage, manipulation and recall.
 
-- _WebpackPwaManifest_ application to generated manifest.json.
+- _Sequalize_ for modeling and database control.
 
-- _Workbox_  service worker that caches static assets.
+- _Bcrypt Package_  for password hashing.
+
+- _Express Session and Connect Session Sequelize Packages_ for user authentication.
 
 ## Routine Usage
 
-Just click on the link or the PWA shortcut. Then you type, delete, cut and paste like you do. There is no saving; that's always done automatically, when your click away from the window or close the application. It's always there when you come back.
+- The user landing page displays displays existing blog post from all users.  
+
+- If the user selects any other feature without being logging in, they are diverted to sign-up/log-in.
+
+- The user may sign-up and there username and password are saved.
+
+- Once signed-up, they are automatically logged-in and may submit blog posts.
 
 ## License 
 
