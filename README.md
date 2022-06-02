@@ -4,12 +4,12 @@ This is a student toy project to demonstrate proficiency with full-stack program
 
 ## Introduction  
 
-Thrashin Tech Blog is blog site where developers can post and comment on other posts. The implementation follows the Model-View-Controller (MVC) and utilizes the templating  Handlebars.js 
+Thrashin Tech Blog is blog site where developers can submit blog post and comment on other posts. The implementation follows the Model-View-Controller (MVC), uses the templating language Handlebars.js and uses Sequelize for Object-Relational Mapping (ORM). 
 
 ## Links  
 
 The Git Repository containing this porject code and this README file: https://github.com/mjtanner-github/Great_JATE.   
-The Heroku deployment: https://tanners-jate.herokuapp.com/.
+The Heroku deployment: https://thrashin-tech-blog.herokuapp.com.
 
 ## Features
 
